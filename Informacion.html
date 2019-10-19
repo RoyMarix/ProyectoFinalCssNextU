@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scale=no">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+<h1>Registro en nuestra tienda</h1>
+<form action="">
+	<p>
+		<label for="username">Nombre de usuario</label>
+		<br>
+		<input type="text" name="username" placeholder=" Nombre " autofocus required>
+	</p>
+	<p>
+		<label for="email">Email: </label>
+		<br>
+		<input type="email" name="email" placeholder=" Email " required>
+	</p>
+	<p>
+		<label for="genero">G&eacute;nero: </label>
+		<br>
+		<input type="radio" name="genro"> Masculino
+		<br>
+		<input type="radio" name="genero"> Femenino
+	</p>
+	<p>
+		<label for="recommendados">Recomendado por: </label>
+		<br>
+		<select name="recommendados">
+			<option value="1">Google</option>
+			<option value="2">Amigo</option>
+			<option value="3">Redes Sociales</option>
+		</select>
+	</p>
+	<p>
+		<label for="comment">Comentarios: </label>
+		<br>
+		<textarea name="comment" id="Comentarios"></textarea>
+	</p>
+	<p>
+		<input type="submit" value="Enviar">
+	</p>
+</form>
+
+</body>
+</html>

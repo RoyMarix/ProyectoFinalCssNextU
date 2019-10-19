@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'high_tide';
+        src: url(../fuentes/HighTide-Demo.ttf);
+}
+#fuenteUno {
+     font-family: 'high_tide';   
+}
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
